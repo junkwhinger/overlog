@@ -1,5 +1,22 @@
 # overlog
 
+This data is sampled user stat from overlog.gg,
+and I've already preprocessed the dataset.
+* X_training: Features to train
+* y_training: Target labels for X_training
+* X_test: Features to test
+
+If you're interested in making your own models,
+train them with X_training and y_training,
+predict labels for X_test, put the result in pandas DataFrame,
+export the df into csv and send me at junsik.whang@gmail.com.
+I'll send you back the evaluation result^^
+
+Thank you!
+
+
+# overlog
+
 overlog.gg에서 샘플링한 유저 전적 자료로, 간단한 분류모델을 만드는데 사용해보았습니다.
 업로드한 자료는 3개입니다.  
 * X_training: 학습에 사용할 피쳐셋 데이터
